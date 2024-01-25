@@ -15,12 +15,11 @@ compose-compiler = "1.5.6"
 compose-plugin = "1.5.11"
 junit = "4.13.2"
 kotlin = "1.9.21"
-ktor = "2.3.7"
+kermit = "2.0.2"
+
 
 [libraries]
-ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
-ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
-ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+kermit= {module="co.touchlab:kermit", version.ref="kermit"}
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
